@@ -1,0 +1,27 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #9ceb35;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: green; /* Change the color to green */
+  font-size: 3em;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.todo-form {
+  display: flex; /* Establish a flexbox layout */
+  justify-content: center; /* Horizontally centers elements within the form */
+  align-items: center; /* Vertically aligns input and button (optional for vertical alignment) */
+  width: 100%; /* Ensures the form fills its container */
+  margin: 2rem auto; /* Adds some spacing for better layout (optional) */
+}
